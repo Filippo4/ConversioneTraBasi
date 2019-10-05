@@ -6,7 +6,11 @@ namespace ConversioneTraBasi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("inserisci un numero");
+            int numero = int.Parse(Console.ReadLine());
+            Console.WriteLine(Convert.ToString(numero, 2));
+            Console.ReadLine();
+
         }
     }
 }
